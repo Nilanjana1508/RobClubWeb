@@ -1,0 +1,51 @@
+body{
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    color:antiquewhite;
+    margin:0;
+}
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+header a{
+    color:aliceblue;
+    text-decoration: none;
+    margin-top: 30px;
+}
+.navbar a{
+    margin:30px;
+    color:blanchedalmond;
+    text-decoration:wavy;
+    font-size:30px;
+}
+.description{
+    padding:50px;
+    background: url();
+    background-size:cover;
+    text-align:left;
+}
+.descriptiontitle{
+    font-size:30px;
+    color:chartreuse;
+}
+.logoandnav img{
+    width:240px;
+}
+.history{
+    font-size:20px
+}
+.progress{
+    text-align: right;
+    font-size:20px
+}
+.working{
+    font-size:20px
+}
+.advantage{
+    text-align: right;
+    font-size:20px
+}
+.better{
+    font-size:20px
+}

@@ -1,0 +1,77 @@
+body{
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    color:antiquewhite;
+    margin:0;
+}
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+header a{
+    color:aliceblue;
+    text-decoration: none;
+    margin-top: 30px;
+}
+.navbar a{
+    margin:30px;
+    color:blanchedalmond;
+    text-decoration:wavy;
+    font-size:30px;
+}
+.landing{
+    padding:100px;
+    background: url();
+    background-size:cover;
+    text-align:left;
+}
+.events{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+.eventsheading{
+    font-size:30px;
+    color:chartreuse;
+}
+.cards{
+    display:flex;
+}
+.card{
+    padding: 50px;
+    transition: transform .2s; /* Animation */
+    width: 300px;
+    height: 400px;
+    margin: 0 auto;
+}
+.card:hover {
+    transform: scale(1.2); 
+}  
+.card img{
+    width:205px;
+}
+.achievements{
+    padding:50px;
+    background: url();
+    background-size:cover;
+    text-align:left;
+}
+.achievementsheading{
+    font-size:30px;
+    color:chartreuse;
+}
+.landingtitle{
+    color:rgb(121, 202, 16);
+    font-size:50px;
+}
+.landing img{
+    width:400px;
+    float: right;
+}
+.logoandnav{
+    font-size:30px;
+}
+.logoandnav img{
+    width:240px;
+}

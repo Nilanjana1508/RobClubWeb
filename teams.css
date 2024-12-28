@@ -1,0 +1,127 @@
+body{
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    color:antiquewhite;
+    margin:0;
+}
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+header a{
+    color:aliceblue;
+    text-decoration: none;
+    margin-top: 30px;
+}
+.navbar a{
+    margin:30px;
+    color:blanchedalmond;
+    text-decoration:wavy;
+    font-size:30px;
+}
+.logoandnav{
+    font-size:30px;
+}
+.logoandnav img{
+    width:240px;
+}
+* {
+    font-family: Nunito, sans-serif;
+  }
+  
+  .text-blk {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    line-height: 25px;
+  }
+  
+  .responsive-cell-block {
+    min-height: 75px;
+  }
+  
+  .responsive-container-block {
+    min-height: 75px;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    justify-content: space-evenly;
+  }
+  
+  .outer-container {
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    background-color:  linear-gradient(to right, #434343 0%, black 100%);
+  }
+  
+  .inner-container {
+    max-width: 1320px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-left: auto;
+  }
+  
+  .section-head-text {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+    color: chartreuse;
+    margin: 0 0 10px 0;
+  }
+  
+  .section-subhead-text {
+    font-size: 25px;
+    color: rgb(153, 153, 153);
+    line-height: 35px;
+    max-width: 470px;
+    text-align: center;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 60px;
+    margin-left: 0px;
+  }
+  
+  .img-wrapper {
+    width: 100%;
+  }
+  
+  .team-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .name {
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(102, 102, 102);
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+  }
+  
+  .team-img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .team-card-container {
+    width: 280px;
+    margin: 0 0 40px 0;
+  }
